@@ -1,15 +1,15 @@
 {
   "name": "Ethereum_Kickstarter_Clone",
   "version": "1.0.0",
-  "description": "",
+  "description": "An Kickstart clone where campaigns cannot run away with money",
   "main": "index.js",
   "scripts": {
     "compile": "node ethereum/compile.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Zubair Ahmed",
+  "license": "MIT",
   "dependencies": {
     "fs-extra": "^5.0.0",
     "ganache-cli": "^6.0.3",
