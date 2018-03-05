@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "compile": "node ethereum/compile.js",
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "Zubair Ahmed",
