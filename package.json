@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "node ethereum/compile.js",
     "test": "mocha",
-    "dev": "next dev"
+    "dev": "node server.js"
   },
   "keywords": [],
   "author": "Zubair Ahmed",
