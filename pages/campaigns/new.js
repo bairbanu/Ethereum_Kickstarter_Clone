@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Button, Form, Input, Message } from 'semantic-ui-react'
+import { Router } from '../../routes'
 
 import Layout from '../../components/Layout'
 import factory from '../../ethereum/factory'
@@ -24,6 +25,8 @@ export default class CampaignNew extends Component {
       .send({
         from: accounts[0]
       })
+
+      Router.pushRoute('/')
     } catch(err) {
       this.setState({ errorMessage: err.message })
     }
