@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "node ethereum/compile.js",
+    "deploy": "node ethereum/deploy.js",
     "test": "mocha",
     "dev": "node server.js"
   },
