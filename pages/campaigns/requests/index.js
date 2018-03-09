@@ -7,13 +7,13 @@ import Layout from '../../../components/Layout'
 export default class RequestIndex extends Component {
   static getInitialProps(props) {
     const { address } = props.query
-    return address
+    return { address }
   }
 
   render() {
     return (
       <Layout>
-        <h3> Request </h3>
+        <h3> Request List </h3>
         <Link route={ `/campaigns/${this.props.address}/requests/new` }>
           <a>
             <Button primary> Add Request </Button>

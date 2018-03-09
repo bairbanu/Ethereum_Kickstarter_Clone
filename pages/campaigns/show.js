@@ -84,7 +84,7 @@ export default class CampaignShow extends Component {
             <Grid.Column>
               <Link route={ `/campaigns/${this.props.address}/requests`}>
               <a>
-                <Button primary> View Request </Button>
+                <Button primary> View Request List </Button>
               </a>
             </Link>
             </Grid.Column>
